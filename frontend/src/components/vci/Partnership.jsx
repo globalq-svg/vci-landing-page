@@ -4,7 +4,7 @@ import { Eyebrow, MaskText, Reveal } from "./Motion";
 const PROVIDES = [
   { icon: BookOpen, t: "Curriculum & educational resources", d: "Written and video curriculum drawn from 30+ Spirit-filled courses, plus proven resource materials ready for your classroom." },
   { icon: Landmark, t: "Guidance on establishing a local training center", d: "Hands-on consultation and clear, principled guidelines for launching your Bible college or ministry training program." },
-  { icon: GraduationCap, t: "Faculty & leadership development", d: "Training for directors and teachers, with short-term guest teachers who can serve alongside you in the classroom." },
+  { icon: GraduationCap, t: "Faculty & leadership development", d: "Training for directors and teachers, with short-term guest teachers who can serve alongside you in the classroom when available." },
   { icon: HeartHandshake, t: "Mentoring", d: "Relationship, not a transaction. Regional coordinators walk with you as you build and grow." },
   { icon: LifeBuoy, t: "Ongoing academic & ministry support", d: "Continued encouragement, training for growth and multiplication, and connection to a global partner network." },
 ];

@@ -38,9 +38,9 @@ export const Benefits = () => (
             </a>
           </div>
         </div>
-        <Tile testId="benefit-certificate" icon={Award} t="Approved Global Partner Certificate" d="Recognition of your school as an approved partner within the VCI network." className="lg:col-span-5" />
+        <Tile testId="benefit-certificate" icon={Award} t="International Bible College Partner Certificate" d="Recognition of your school as an International Bible College Partner within the VCI network." className="lg:col-span-5" />
         <Tile testId="benefit-directory" icon={Globe2} t="Global Partner Network Directory" d="A listing that connects your training center with leaders and schools across the nations." className="lg:col-span-5" />
-        <Tile testId="benefit-coordinators" icon={Users} t="Regional coordinator support" d="Training sessions and a coordinator in your region who knows your context." className="lg:col-span-4" />
+        <Tile testId="benefit-coordinators" icon={Users} t="Regional Coordinator support" d="Training sessions and a coordinator in your region who knows your context." className="lg:col-span-4" />
         <Tile testId="benefit-guest-teachers" icon={GraduationCap2} t="Guest teachers" d="Short-term missionary teachers who can serve in your classroom and invest in your faculty." className="lg:col-span-4" />
         <Tile testId="benefit-languages" icon={Languages} t="Multilingual pathways" d="Applications available in English, Español, Français and Português." className="lg:col-span-4" />
       </Reveal>

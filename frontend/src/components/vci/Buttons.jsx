@@ -25,6 +25,6 @@ export const TalkButton = ({ testId, dark = false, className = "" }) => (
     } ${className}`}
   >
     <CalendarDays className="h-4 w-4 shrink-0" aria-hidden="true" />
-    <span>Schedule a Conversation with VCI Leadership</span>
+    <span>Schedule a Conversation with a Regional Coordinator</span>
   </a>
 );
