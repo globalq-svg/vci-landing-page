@@ -1,0 +1,143 @@
+{
+  "project_name": "Victory College International (VCI)",
+  "app_type": "landing_page",
+  "archetype": "LUXURY_AND_SWISS_HYBRID_PRESTIGIOUS",
+  "theme": {
+    "mode": "dark_primary_with_light_accents",
+    "primary_bg": "#0B132B",
+    "secondary_bg": "#1C2541",
+    "card_bg": "#131C35",
+    "surface_light": "#F8FAFC",
+    "text_primary": "#F8FAFC",
+    "text_secondary": "#94A3B8",
+    "text_dark": "#0F172A",
+    "accent_gold": "#D4AF37",
+    "accent_gold_bright": "#F3E5AB",
+    "accent_gold_muted": "#B89635",
+    "accent_navy_light": "#1E293B",
+    "border_subtle": "rgba(212, 175, 55, 0.2)",
+    "border_glow": "rgba(243, 229, 171, 0.4)",
+    "notice_badge_bg": "rgba(225, 29, 72, 0.15)",
+    "notice_badge_border": "rgba(225, 29, 72, 0.4)",
+    "notice_badge_text": "#FECDD3"
+  },
+  "typography": {
+    "heading_font": "Cinzel, Cormorant Garamond, serif",
+    "subheading_font": "Outfit, sans-serif",
+    "body_font": "Plus Jakarta Sans, sans-serif",
+    "mono_font": "JetBrains Mono, monospace",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Outfit:wght@400;500;600&display=swap",
+    "sizes": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tight font-extrabold",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "h3": "text-xl sm:text-2xl font-semibold",
+      "body": "text-base sm:text-lg leading-relaxed text-slate-300",
+      "small_label": "text-xs uppercase tracking-[0.25em] text-amber-400 font-semibold"
+    }
+  },
+  "spacing_and_layout": {
+    "container_padding": "px-4 sm:px-8 lg:px-16 max-w-7xl mx-auto",
+    "section_vertical_padding": "py-20 lg:py-32",
+    "card_padding": "p-6 sm:p-8 lg:p-10",
+    "bento_gap": "gap-6 lg:gap-8"
+  },
+  "key_components_structure": [
+    {
+      "name": "NavigationHeader",
+      "description": "Sticky dark navy header with glassmorphism backdrop blur, VCI Crest logo, nav links, and primary CTA button.",
+      "links": ["Vision & Mission", "Partnership Model", "Benefits", "Process", "Gallery", "FAQ"],
+      "primary_cta": {
+        "text": "Apply to Become a Partner",
+        "href": "https://victorycollege.international/apply",
+        "test_id": "nav-cta-apply-button"
+      }
+    },
+    {
+      "name": "KineticHeroSection",
+      "description": "Prestigious hero section featuring kinetic masked line-by-line text reveal, subtle 3D rotating emblem / halo canvas element, background spotlight overlay, stats ticker, and dual CTAs.",
+      "ctas": [
+        {
+          "text": "Apply to Become an International Training Partner",
+          "href": "https://victorycollege.international/apply",
+          "variant": "gold_primary",
+          "test_id": "hero-primary-cta"
+        },
+        {
+          "text": "Schedule a Conversation with VCI Leadership",
+          "href": "https://victorycollege.international/schedule",
+          "variant": "navy_outline",
+          "test_id": "hero-secondary-cta"
+        }
+      ]
+    },
+    {
+      "name": "EditorialMarquee",
+      "description": "Slow moving editorial ribbon marquee showcasing core values: 'BIBLICAL EDUCATION • DISCIPLESHIP • CHURCH PLANTING • LEADERSHIP DEVELOPMENT • TRAINING NATIONS'."
+    },
+    {
+      "name": "VisionMissionSection",
+      "description": "Asymmetric bento section highlighting VCI's global vision, biblical foundation, and commission to empower native leaders to raise local Bible colleges."
+    },
+    {
+      "name": "PartnershipModelSection",
+      "description": "Grid layout highlighting what VCI provides (Curriculum, Training Center Setup, Faculty Development, Mentoring & Academic Support) with a high-visibility Disclaimer Box clearly stating that VCI does NOT provide financial support or sponsorship.",
+      "notice_disclaimer": "Crucial Notice: Victory College International equips partners with curriculum, academic frameworks, and administrative guidance. VCI DOES NOT provide financial grants, funding, or personal visa/monetary sponsorship."
+    },
+    {
+      "name": "BenefitsAndProcessSection",
+      "description": "Interactive step-by-step roadmap detailing the 4-phase journey from initial consultation to launching the local ministry training center."
+    },
+    {
+      "name": "PhotoGallerySection",
+      "description": "Clipped spotlight grid showcasing real graduation ceremonies, leadership gatherings, and campus worship activities with modal zoom preview."
+    },
+    {
+      "name": "FAQAccordionSection",
+      "description": "Shadcn accordion addressing key questions for prospective global partners."
+    },
+    {
+      "name": "FooterSection",
+      "description": "Rich dark footer with contact details (vci@victory.com), domain victorycollege.international, quick site map, copyright notice, and social links."
+    }
+  ],
+  "image_urls": [
+    {
+      "category": "Hero Background / Leadership Gathering",
+      "url": "https://images.unsplash.com/photo-1677509735444-7a922ad275a7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwxfHxjaHJpc3RpYW4lMjBncmFkdWF0aW9uJTIwbWluaXN0cnklMjBsZWFkZXJzaGlwJTIwYmlibGUlMjBjb2xsZWdlJTIwZGlwbG9tYSUyMGNlcmVtb255fGVufDB8fHx8MTc5MzMwODIzMHww&ixlib=rb-4.1.0&q=85",
+      "description": "Grand graduation assembly in traditional church auditorium"
+    },
+    {
+      "category": "Ministry Training & Study",
+      "url": "https://images.unsplash.com/photo-1582079768320-bef09f47b425?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwyfHxjaHJpc3RpYW4lMjBncmFkdWF0aW9uJTIwbWluaXN0cnklMjBsZWFkZXJzaGlwJTIwYmlibGUlMjBjb2xsZWdlJTIwZGlwbG9tYSUyMGNlcmVtb255fGVufDB8fHx8MTc5MzMwODIzMHww&ixlib=rb-4.1.0&q=85",
+      "description": "Student intensely studying biblical text"
+    },
+    {
+      "category": "Worship & Global Prayer Gathering",
+      "url": "https://images.unsplash.com/photo-1600288480699-0b0d8a456dd8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA0MTJ8MHwxfHNlYXJjaHwyfHxpbnRlcm5hdGlvbmFsJTIwY2hyaXN0aWFuJTIwbGVhZGVyc2hpcCUyMHByYXlpbmclMjB3b3JzaGlwJTIwdHJhaW5pbmclMjBjb25mZXJlbmNlJTIwZ2F0aGVyaW5nfGVufDB8fHx8MTc5MzMwODIzMHww&ixlib=rb-4.1.0&q=85",
+      "description": "International leaders raising hands in unity and worship"
+    },
+    {
+      "category": "Faculty & Leadership Fellowship",
+      "url": "https://images.unsplash.com/photo-1609234656388-0ff363383899?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA0MTJ8MHwxfHNlYXJjaHw0fHxpbnRlcm5hdGlvbmFsJTIwY2hyaXN0aWFuJTIwbGVhZGVyc2hpcCUyMHByYXlpbmclMjB3b3JzaGlwJTIwdHJhaW5pbmclMjBjb25mZXJlbmNlJTIwZ2F0aGVyaW5nfGVufDB8fHx8MTc5MzMwODIzMHww&ixlib=rb-4.1.0&q=85",
+      "description": "Ministry partners with arms around each other praying"
+    },
+    {
+      "category": "Small Group Discipleship",
+      "url": "https://images.unsplash.com/photo-1663162550932-f67b561e656f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHwzfHxkaXZlcnNlJTIwZ2xvYmFsJTIwc3R1ZGVudHMlMjBzdHVkeWluZyUyMGJpYmxlJTIwY2h1cmNoJTIwbGVhZGVyc2hpcCUyMHNlbWluYXJ8ZW58MHx8fHwxNzkzMzA4MjMwfDA&ixlib=rb-4.1.0&q=85",
+      "description": "Global students reviewing training materials in seminar setting"
+    }
+  ],
+  "motion_and_libraries": {
+    "smooth_scrolling": "lenis",
+    "animations": "framer-motion",
+    "icons": "lucide-react / @phosphor-icons/react",
+    "marquee": "react-fast-marquee"
+  },
+  "instructions_to_main_agent": [
+    "Inject the Google Fonts link into index.html or import in index.css.",
+    "Implement Lenis smooth scroll wrapping for seamless scrolling feel.",
+    "Ensure all buttons, navigation links, and accordions contain precise data-testid attributes.",
+    "Highlight the No Financial Support disclaimer prominently in the Partnership section using an alert badge.",
+    "Ensure both CTAs are present in the Hero section and sticky header."
+  ]
+}
